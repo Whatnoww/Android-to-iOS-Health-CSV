@@ -1,0 +1,14 @@
+combined/*
+!combined/.gitkeep
+
+input_csv/*
+!input_csv/.gitkeep
+
+output_csv/*
+!output_csv/.gitkeep
+
+logs.txt
+"run args.txt"
+credentials.json
+token.pickle
+downloaded.txt
