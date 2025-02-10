@@ -10,5 +10,11 @@ You can also run this manually by removing the upload.py and starting execution 
 ## Limitations
 Don't know how to automate ingest on the iOS side. Still looking for a way to automate it using Shortcuts.
 
+I have found a workaround of sorts. I task the job to run at a given time, Nextcloud syncs the file to a folder, and on iOS I have a shortcut that grabs the file from a public share in Nextcloud (you left click the Download button after sharing the csv, it seems to retain the same url regardless of file updates) and then opens it in CSV import, which works.
+
+![image](https://github.com/user-attachments/assets/c4b0fcc4-308e-4344-9f30-8f29e07600ef)
+
+
+
 ## Warning
 I offer zero support. I just wanted a way to automate moving my sleep data (and hopefully everything else) from my Android device to my iOS device.
